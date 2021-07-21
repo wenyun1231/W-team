@@ -1,0 +1,12 @@
+$('.img1').slick({
+    arrows:true,/*顯示箭頭*/
+    slidesToShow:1,/*播放一張圖*/
+    slidesToScroll:1,/*滑動張數*/
+    autoplay:true,/*自動播放*/
+    autoplaySpeed:2500,/*播放速度*/
+});
+$('.img2').slick({
+    dots:true,/*顯示點點*/
+    slidesToShow:3,/*播放兩張圖*/
+    slidesToScroll:3,/*滑動張數*/
+});
