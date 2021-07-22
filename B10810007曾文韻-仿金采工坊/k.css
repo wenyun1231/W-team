@@ -55,7 +55,7 @@
     top: 50px;
 }
 .b11{
-    background-image:url("歌曲1.jpg");
+    background-image:url("/B10810007曾文韻-仿金采工坊/image/歌曲1.jpg");
     background-size: 100% 100%;/*圖片寬高*/   
 }
 .b11:hover {
@@ -63,7 +63,7 @@
     color:rgba(3, 4, 15, 0.89);
 }
 .b12{
-    background-image:url("歌曲2.jpg");
+    background-image:url("/B10810007曾文韻-仿金采工坊/image/歌曲2.jpg");
     background-size: 100% 100%; 
 }
 .b12:hover {
@@ -71,7 +71,7 @@
     color:rgb(14, 1, 1);
 }
 .b13{
-    background-image:url("歌曲3.jpg");
+    background-image:url("/B10810007曾文韻-仿金采工坊/image/歌曲3.jpg");
     background-size: 100% 100%;  
 }
 .b13:hover {
@@ -79,7 +79,7 @@
     color:rgb(15, 2, 17);
 }
 .b14{
-    background-image:url("歌曲4.jpg");
+    background-image:url("/B10810007曾文韻-仿金采工坊/image/歌曲4.jpg");
     background-size: 100% 100%;   
 }
 .b14:hover {
@@ -114,6 +114,7 @@
     /*position: absolute;*/
     width: 43.52%;
     margin: 0%;
+    object-fit:cover;
     /*height: 520px;*/
     /*right: 50%;*/
 }
