@@ -14,7 +14,7 @@
     margin-left: 330px;
 }
 .loquat{
-    display: inline-block;
+    /*display: inline-block;*/
     margin-left: 5%;
     margin-top: 75px;
 }
@@ -22,8 +22,7 @@
     width: 38%;
     height: 220px;
 }
-.all{
-    
+.all{    
     width: 720px;
     height: 150px;
 }
@@ -34,12 +33,12 @@
 .name{
     position: absolute;
     font-size: 30px;
-    left: 29%;
+    margin-left: 27%;
     margin-top: -5px;
 }
 .introduction{
     position: absolute;
-    left: 26%;
+    margin-left: 20%;
     margin-top: 60px;
 }
 .but1{
@@ -50,15 +49,9 @@
     border-color: yellow;
 }
 .plum{
-    display: inline;
-    margin-top: 130px;
-    margin-left: 1%;
-}
-.name1{
-    position: absolute;
-    font-size: 30px;
-    margin-left: 18%;
-    
+    /*display: inline;*/
+    margin-top: -149px;
+    margin-left: 56%;
 }
 .but2{
     position: absolute;
@@ -66,4 +59,8 @@
     margin-top: 160px;
     background-color: yellow;
     border-color: yellow;
+}
+.pl{
+    width: 38%;
+    height: 220px;
 }
