@@ -1,7 +1,14 @@
-$('.img1').slick({
+$('.bg11').slick({
     arrows:true,/*顯示箭頭*/
     slidesToShow:1,/*播放一張圖*/
     slidesToScroll:1,/*滑動張數*/
     autoplay:true,/*自動播放*/
     autoplaySpeed:4000,/*播放速度*/
+});
+$('.bg21').slick({
+    arrows:true,
+    slidesToShow:1,
+    slidesToScroll:1,
+    autoplay:true,
+    autoplaySpeed:4000,
 });
