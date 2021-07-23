@@ -1,0 +1,67 @@
+.bg{
+    background-image: url(/img/background.png);
+    background-position: center;/*圖片置中*/
+    background-attachment: fixed;/*以中心點縮小擴張(有彈性)*/
+    background-repeat: no-repeat;/*不要有空格(填滿)*/
+    background-color: rgb(232, 162, 250);
+    /*background-size: cover;/*依比例減少或增加元素*/
+}
+.bg1{
+    margin-top: 20%;
+    margin-left: 0% auto;
+    background-color: rgba(233, 202, 245, 0.8);/*表示透明度*/
+    width: 100%;
+    height: 240px;
+}
+.float{
+    position: fixed;
+    width: 100%;
+    height: 52px;
+    background-color: rgba(230, 240, 240, 0.52);
+    margin-top: -12px;  
+    margin-left: -8px;  
+}
+.language{
+    position: fixed;
+    right:0px;
+    border-color: rgba(177, 207, 236, 0.212);
+    width: 5.7%;
+    height: 52px;
+    font-family: "標楷體";
+}
+.language1{
+    right:32.5%;
+    width: 7.5%;
+}
+.language2{
+    right:25%;
+    width: 7.5%;
+}
+.language3{
+    right:17.5%;
+    width: 7.5%;
+}
+.language4{
+    right:10%;
+    width: 7.5%;
+}
+.co1{
+    height: 1004px;
+    margin-top: 20px;  
+    margin-left: 16%;  
+}
+.img1{
+    margin: auto;
+    height: 20%;
+    width: 43%;
+    margin-left: 31px;
+    object-fit:cover;
+}
+.t1{
+    margin-top: 12px; 
+    margin-left: 43%;  
+    font-family: "Malgun Gothic";
+    text-align: center;
+    font-size: 9px;
+    line-height: 34px;
+}
