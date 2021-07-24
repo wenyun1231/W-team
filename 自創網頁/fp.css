@@ -29,6 +29,18 @@
     margin-left: 22.7%;
     margin-top: 520px;
 }
+.bg3{
+    position:absolute;
+    border-color: rgb(7, 7, 34);
+    border-style: solid;
+    width: 20%;
+    height: 520px;
+    margin-left: 56%;
+    margin-top: 520px;
+}
+.bg4{
+    margin-top: 1134px;
+}
 .bg21{
     position:absolute;
     border-color: rgb(248, 248, 252);
@@ -68,6 +80,10 @@
 }
 .language4{
     right:10%;
+    width: 7.5%;
+}
+.language5{
+    right:40%;
     width: 7.5%;
 }
 .co1{

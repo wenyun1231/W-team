@@ -5,25 +5,62 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.float{
+    position: fixed;
+    width: 100%;
+    height: 52px;
+    background-color: rgba(231, 243, 243, 0.92);
+    margin-top: -120px;  
+    margin-left: -8px;  
+}
+.language{
+    position: fixed;
+    right:0px;
+    border-color: rgba(177, 207, 236, 0.212);
+    width: 5.7%;
+    height: 52px;
+    font-family: "標楷體";
+}
+.language1{
+    right:32.5%;
+    width: 7.5%;
+}
+.language2{
+    right:25%;
+    width: 7.5%;
+}
+.language3{
+    right:17.5%;
+    width: 7.5%;
+}
+.language4{
+    right:10%;
+    width: 7.5%;
+}
+.language5{
+    right:40%;
+    width: 7.5%;
+}
 .fruit{
     background-image: url("/img/春夏.jpg");
-    height: 500px;
-    width: 850px;
+    height: 530px;
+    width: 64%;
     background-position: center center;
-    background-size: contain;
-    margin-left: 24%;
+    background-size: cover;
+    margin-left: 18%;
+    margin-top: 120px;
 }
 .loquat{
     /*display: inline-block;*/
-    margin-left: 5%;
+    margin-left: 4.5%;
     margin-top: 162px;
 }
 .loq{
-    width: 38%;
-    height: 220px;
+    width: 39%;
+    height: 240px;
 }
 .all{    
-    width: 720px;
+    width: 42%;
     height: 150px;
 }
 .all:hover {
@@ -39,19 +76,27 @@
 .introduction{
     position: absolute;
     margin-left: 20%;
-    margin-top: 60px;
+    margin-top: 45px;
+    /*text-align: justify;*/
 }
 .but1{
     position: absolute;
-    margin-left: 25%;
-    margin-top: 160px;
-    background-color: yellow;
-    border-color: yellow;
+    margin-left: 16.25%;
+    margin-top: 219px;
+    background-color: rgb(167, 167, 236);
+    color: black;
+    font-size:18px;
+    font-family:標楷體;
+}
+.more{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 130px;
 }
 .plum{
     /*display: inline;*/
     margin-top: -149px;
-    margin-left: 56%;
+    margin-left: 53%;
 }
 .but2{
     position: absolute;
@@ -59,8 +104,4 @@
     margin-top: 160px;
     background-color: yellow;
     border-color: yellow;
-}
-.pl{
-    width: 38%;
-    height: 220px;
 }
