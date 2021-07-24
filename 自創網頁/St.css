@@ -104,3 +104,12 @@
     background-color: rgb(48, 48, 48);
     margin-top: 170px;
 }
+.home{
+    position: absolute;
+    color: blanchedalmond;
+    margin-top: 50px;
+    margin-left: 10%;
+    font-size: 32px;
+    font-family: 標楷體;
+
+}
