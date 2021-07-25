@@ -1,5 +1,5 @@
 .bg{
-    background-image: url(/img/background.png);
+    background-image: url("/自創網頁/img/background.png");
     background-position: center;/*圖片置中*/
     background-attachment: fixed;/*以中心點縮小擴張(有彈性)*/
     background-repeat: no-repeat;/*不要有空格(填滿)*/
