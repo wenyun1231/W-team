@@ -16,15 +16,15 @@
     left: -250px;
     width: 250px;
     height: 100%;
-    background: #f6b4fc;
+    background: #d2d7dd;
     transition: all .5s ease;
 }
 .sidebar header{
     font-size: 20px;
     color: white;
-    padding-left: 16%;
+    padding-left: 16.2%;
     line-height: 72px;
-    background: #27142e;
+    background: #17142e;
 }
 .sidebar ul a{
     display: block;
@@ -35,8 +35,8 @@
     color: rgb(9, 10, 53);
     padding-left: 40px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(225, 255, 225, .1);
-    border-bottom: 1px solid rgb(7, 4, 14);
+    /*border-top: 1px solid rgba(225, 255, 225, .1);
+    border-bottom: 1px solid rgb(7, 4, 14);*/
     transition: .4s;
 }
 ul li:hover a{

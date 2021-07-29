@@ -1,3 +1,14 @@
+.music{
+    margin-left: 33%;
+    margin-top: 2%;
+    height: 320px;
+    width: 34%;
+    text-align: center;/*垂直置中*/
+}
+.music1{
+    width: 75%;
+    height: 313px;
+}
 .bg{
     background-image: url("/自創網頁/img/background.png");
     background-position: center;/*圖片置中*/
@@ -76,15 +87,15 @@
     left: -250px;
     width: 250px;
     height: 100%;
-    background: #f6b4fc;
+    background: #f9e1fc;
     transition: all .5s ease;
 }
 .sidebar header{
     font-size: 20px;
     color: white;
-    padding-left: 16%;
+    padding-left: 16.2%;
     line-height: 72px;
-    background: #27142e;
+    background: #100a27;
 }
 .sidebar ul a{
     display: block;/*換行*/
@@ -95,8 +106,6 @@
     color: rgb(9, 10, 53);
     padding-left: 40px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(225, 255, 225, .1);
-    border-bottom: 1px solid rgb(7, 4, 14);
     transition: .4s;
 }
 ul li:hover a{
