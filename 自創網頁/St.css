@@ -135,15 +135,14 @@ label #cancel{
 .black{
     width: 100%;
     height: 300px;
-    background-color: rgb(48, 48, 48);
+    background-color:black;
     margin-top: 170px;
 }
 .home{
     position: absolute;
-    color: blanchedalmond;
+    color: rgb(214, 205, 255);
     margin-top: 50px;
-    margin-left: 10%;
+    margin-left: 20.7%;
     font-size: 32px;
     font-family: 標楷體;
-
 }
