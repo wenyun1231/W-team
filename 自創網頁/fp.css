@@ -9,6 +9,20 @@
     width: 75%;
     height: 313px;
 }
+.bottom{
+        width: 100%;
+        height: 300px;
+        background-color:black;
+        margin-top: 230px;
+}
+.home{
+    position: absolute;
+    color: rgb(214, 205, 255);
+    margin-top: 50px;
+    margin-left: 23.7%;
+    font-size: 32px;
+    font-family: 標楷體;
+}
 .bg{
     background-image: url("/自創網頁/img/background.png");
     background-position: center;/*圖片置中*/
@@ -26,7 +40,7 @@
     /*position:absolute;*/
     display: flex;
     margin-left: 27.5%;
-    margin-top: 16%;
+    margin-top: 2%;
     /*background-color: rgba(233, 202, 245, 0.8);/*表示透明度*/
     width: 45%;
     border-color: black;
@@ -196,13 +210,21 @@ label #cancel{
     /*margin-top: -16px;
     height: 23%;*/
     /*margin-left: -36px;*/
-    width: 42%;
+    width: 53%;
     object-fit: cover;
     margin: 0%;
 }
 .img2{
     width: 100%;
     height: 116px;
+}
+.t0{
+    font-family: "標楷體";
+    font-size: 52px;
+    color: wheat;
+    background-color: black;
+    margin-top: 230px;
+    text-align: center;
 }
 .t1{
     /* margin-top: 134px; 
