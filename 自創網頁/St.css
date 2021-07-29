@@ -75,6 +75,31 @@ label #cancel{
 #check:checked ~ label #cancel{
     left: 195px;
 }
+.healthy{
+    position:absolute;
+    left:50%;
+    top:103%;
+    transform:translate(-50%,-50%); /*加absolute為垂直置中的意思*/
+} 
+.healthy-effect{
+    color:rgba(255, 255, 255, 0.9);
+    letter-spacing:2px;
+    font-family: 'Kumar One Outline', cursive;
+}
+.healthy-effect:nth-of-type(1){
+    text-shadow:
+      0 0 5px rgb(250, 248, 161, 1),
+      0 0 10px rgb(250, 248, 161, 1),
+      0 0 20px rgb(250, 248, 161, 1),
+      0 0 40px rgb(250, 248, 161, 1);
+    animation:healthy-shine 12s linear infinite;  /*讓動畫重複播放12秒*/
+}
+@keyframes healthy-shine{
+    0%{opacity:1;}
+    50%{opacity:1;}
+    100%{
+    color:#fd1534;}
+}
 .fruit{
     background-image: url("/自創網頁/img/春夏.jpg");
     height: 530px;
@@ -141,8 +166,30 @@ label #cancel{
 .home{
     position: absolute;
     color: rgb(214, 205, 255);
-    margin-top: 50px;
-    margin-left: 20.7%;
     font-size: 32px;
     font-family: 標楷體;
 }
+.home1{
+    margin-top: 50px;
+    margin-left: 20.7%;
+}
+.game{
+    margin-top: 50px;
+    margin-left: 40%;
+}
+.game1{
+    margin-top: 102px;
+    margin-left: 40%;
+    font-size: 20px;
+}
+.game2{
+    margin-top: 130px;
+    margin-left: 40%;
+    font-size: 20px;
+}
+.game3{
+    margin-top: 158px;
+    margin-left: 40%;
+    font-size: 20px;
+}
+

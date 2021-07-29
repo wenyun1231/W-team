@@ -18,10 +18,31 @@
 .home{
     position: absolute;
     color: rgb(214, 205, 255);
-    margin-top: 50px;
-    margin-left: 23.7%;
     font-size: 32px;
     font-family: 標楷體;
+}
+.home1{
+    margin-top: 50px;
+    margin-left: 23.7%;
+}
+.game{
+    margin-top: 50px;
+    margin-left: 40%;
+}
+.game1{
+    margin-top: 102px;
+    margin-left: 40%;
+    font-size: 20px;
+}
+.game2{
+    margin-top: 130px;
+    margin-left: 40%;
+    font-size: 20px;
+}
+.game3{
+    margin-top: 158px;
+    margin-left: 40%;
+    font-size: 20px;
 }
 .bg{
     background-image: url("/自創網頁/img/background.png");
