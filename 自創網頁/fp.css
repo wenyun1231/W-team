@@ -23,25 +23,25 @@
 }
 .home1{
     margin-top: 50px;
-    margin-left: 23.7%;
+    margin-left: 17%;
 }
 .game{
     margin-top: 50px;
-    margin-left: 40%;
+    margin-left: 43%;
 }
 .game1{
     margin-top: 102px;
-    margin-left: 40%;
+    margin-left: 43%;
     font-size: 20px;
 }
 .game2{
     margin-top: 130px;
-    margin-left: 40%;
+    margin-left: 43%;
     font-size: 20px;
 }
 .game3{
     margin-top: 158px;
-    margin-left: 40%;
+    margin-left: 43%;
     font-size: 20px;
 }
 .bg{
@@ -82,9 +82,9 @@
     /*position:absolute;*/
     border-color: rgb(250, 216, 216);
     border-style: solid;
-    width: 20%;
-    height: 520px;
-    margin-left: 23.2%;
+    width: 25%;
+    height: 575px;
+    margin-left: 17.5%;
     margin-top: 220px;
 }
 .bg21{
@@ -100,16 +100,16 @@
     /*position:absolute;*/
     border-color: rgb(233, 173, 215);
     border-style: solid;
-    width: 20%;
-    height: 520px;
+    width: 25%;
+    height: 575px;
     margin-left: 56.5%;
-    margin-top:-524px;
+    margin-top:-579px;
 }
 .bg4{
-    margin-top: 134px;
+    margin-top: 100px;
 }
 .bg5{
-    margin-top: -524px;
+    margin-top: -579px;
 }
 *{
     margin: 0;
@@ -259,13 +259,14 @@ label #cancel{
     font-family: "標楷體";
     text-align: center;
     font-size: 20px;
-    line-height: 75px;
+    line-height: 31px;
+    margin-top: 12%;
 }
 .but{
     width: 52%;
     height: 25px;
     text-align: center;
-    font-size: 16px;
+    font-size: 13.7px;
     font-family: "標楷體";
     margin-left: 24.2%;
 }

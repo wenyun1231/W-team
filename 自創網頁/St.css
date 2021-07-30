@@ -77,8 +77,10 @@ label #cancel{
 }
 .healthy{
     position:absolute;
+    text-align:center;
     left:50%;
     top:103%;
+    width: 92%;
     transform:translate(-50%,-50%); /*加absolute為垂直置中的意思*/
 } 
 .healthy-effect{
@@ -117,6 +119,7 @@ label #cancel{
 .loq{
     width: 39%;
     height: 240px;
+    object-fit: cover;
 }
 .all{    
     width: 42%;
@@ -136,6 +139,8 @@ label #cancel{
     position: absolute;
     margin-left: 20%;
     margin-top: 45px;
+    font-size: 16px;
+    font-family:標楷體;
     /*text-align: justify;*/
 }
 .but1{
@@ -151,6 +156,8 @@ label #cancel{
     position: absolute;
     margin-left: 20%;
     margin-top: 130px;
+    font-size: 16px;
+    font-family:標楷體;
 }
 .plum{
     /*display: inline;*/
@@ -175,21 +182,30 @@ label #cancel{
 }
 .game{
     margin-top: 50px;
-    margin-left: 40%;
+    margin-left: 42%;
 }
 .game1{
     margin-top: 102px;
-    margin-left: 40%;
+    margin-left: 42%;
     font-size: 20px;
 }
 .game2{
     margin-top: 130px;
-    margin-left: 40%;
+    margin-left: 42%;
     font-size: 20px;
 }
 .game3{
     margin-top: 158px;
-    margin-left: 40%;
+    margin-left: 42%;
     font-size: 20px;
 }
+@media screen and (min-width:520px) and (max-width:1300px){
+    .loq{
+        width:100%;
+        /*height:520px;*/
+    }
+    /*.bg1{
+        flex-wrap:wrap;
+    }*/
+} 
 
