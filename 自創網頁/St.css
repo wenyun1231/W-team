@@ -13,18 +13,18 @@
 }
 .sidebar{
     position: fixed;
-    left: -250px;
+    left: -252px;
     width: 250px;
     height: 100%;
-    background: #d2d7dd;
+    background: #cdd2e2;
     transition: all .5s ease;
 }
 .sidebar header{
     font-size: 20px;
-    color: white;
+    color: rgb(204, 255, 240);
     padding-left: 16.2%;
     line-height: 72px;
-    background: #17142e;
+    background: #010413;
 }
 .sidebar ul a{
     display: block;
@@ -32,7 +32,7 @@
     line-height: 52px;
     font-size: 20px;
     font-family: "標楷體";
-    color: rgb(9, 10, 53);
+    color: rgb(37, 92, 245);
     padding-left: 40px;
     box-sizing: border-box;
     /*border-top: 1px solid rgba(225, 255, 225, .1);
