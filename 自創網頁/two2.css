@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar{
+    position: fixed;
+    left: -252px;
+    width: 250px;
+    height: 100%;
+    background: -webkit-linear-gradient(right bottom,rgba(42, 45, 223, 0.925),rgba(101, 250, 242, 0.925));
+    background: -o-linear-gradient(top left,rgb(63, 88, 231, 0.925),rgba(40, 199, 204, 0.925));
+    background: -moz-linear-gradient(top right,rgb(104, 106, 236, 0.925),rgba(5, 230, 230, 0.925));
+    background: linear-gradient(to top left,rgb(19, 23, 241, 0.925),rgba(38, 241, 214, 0.925)d);
+    transition: all .5s ease;
+}
+.sidebar header{
+    font-size: 20px;
+    color: rgb(170, 0, 255);
+    padding-left: 16.2%;
+    line-height: 72px;
+    background: #0d0713;
+}
+.sidebar ul a{
+    display: block;/*換行*/
+    height: 100%;
+    line-height: 52px;
+    font-size: 20px;
+    font-family: "標楷體";
+    color: rgb(51, 4, 65);
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: .4s;
+}
+ul li:hover a{
+    padding-left: 52px;
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel{
+    cursor: pointer;
+    background: #241d3b;
+    border-radius: 2px;
+}
+label #btn{
+    left: 40px;
+    top: 25px;
+    font-size: 20px;
+    color:white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+label #cancel{
+    z-index: 111;
+    left: -195px;
+    font-size: 16px;
+    color: rgb(144, 175, 231);
+    padding: 4px 9px;
+    transition: all .5s;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+.black{
+    width: 100%;
+    height: 300px;
+    background-color:black;
+    margin-top: 170px;
+}
+.home{
+    position: absolute;
+    color: rgb(214, 205, 255);
+    font-size: 32px;
+    font-family: 標楷體;
+}
+.home1{
+    margin-top: 50px;
+    margin-left: 17%;
+}
+.game{
+    margin-top: 50px;
+    margin-left: 43%;
+}
+.game1{
+    margin-top: 102px;
+    margin-left: 43%;
+    font-size: 20px;
+}
+.game2{
+    margin-top: 130px;
+    margin-left: 43%;
+    font-size: 20px;
+}
+.game3{
+    margin-top: 158px;
+    margin-left: 43%;
+    font-size: 20px;
+}
+
+/**內容**/
+.row{
+    display: flex;
+}
+.all{
+    display: flex;
+    margin-left: 50px;
+    width: 800px;
+}
+.a{
+    margin-top: 100px;
+}
+.t{
+    display: flex;
+    margin-left: 10px;
+}
+/**圖片**/
+.auwin{
+    width: 200px;
+    height: 240px;
+    object-fit: cover;
+}
+.p{
+    display: block;
+    margin: auto;
+    width: 900px;
+    height: 600px;
+}
+.bla{
+    background: -webkit-linear-gradient(right bottom,rgb(63, 188, 238),rgb(250, 101, 250));
+    background: -o-linear-gradient(top left,rgb(96, 210, 255),rgb(247, 136, 247));
+    background: -moz-linear-gradient(top right,rgb(46, 196, 255),rgb(255, 92, 241));
+    background: linear-gradient(to top left,rgb(128, 218, 253),rgb(233, 157, 226)d);
+}
+/**水果內文**/
+.fruit{
+    width: 450px;
+    height: 250px;
+    margin-left: 20px;
+}
+.main{
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 微軟正黑體;
+}
+.sub{
+    font-size: 18px;
+    color: white;
+    margin-top: 27px;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-family: 微軟正黑體;
+}
+.b{
+    background-color: rgb(53, 132, 221);
+    border-radius: 10%;
+    width: 280px;
+    text-align: center;
+}
+.text{
+    text-align: justify;
+}
