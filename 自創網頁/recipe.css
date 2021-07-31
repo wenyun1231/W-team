@@ -70,7 +70,7 @@ label #cancel{
 }
 .black{
     width: 100%;
-    height: 300px;
+    height: 250px;
     background-color:black;
     margin-top: 170px;
 }
@@ -82,58 +82,97 @@ label #cancel{
 }
 .home1{
     margin-top: 50px;
-    margin-left: 19%;
+    margin-left: 16%;
 }
 .game{
     margin-top: 50px;
-    margin-left: 42%;
+    margin-left: 44%;
 }
 .game1{
     margin-top: 102px;
-    margin-left: 42%;
+    margin-left: 44%;
     font-size: 20px;
 }
 .game2{
     margin-top: 130px;
-    margin-left: 42%;
+    margin-left: 44%;
     font-size: 20px;
 }
 .game3{
     margin-top: 158px;
-    margin-left: 42%;
+    margin-left: 44%;
     font-size: 20px;
 }
+.bg0{
+    background: -webkit-linear-gradient(right bottom,rgb(243, 180, 235),rgb(255, 192, 120));
+    background: -o-linear-gradient(top left,rgb(243, 180, 235),rgb(255, 192, 120));
+    background: -moz-linear-gradient(top left,rgb(243, 180, 235),rgb(255, 192, 120));
+    background: linear-gradient(to top left,rgb(243, 180, 235),rgb(255, 192, 120)d);
+    /*background-color:rgb(243, 217, 222);*/
+}
 .bg1{
-    border-style: solid;
-    border-color: black;
+    /*border-style: solid;
+    border-color: black;*/
     margin-left: 13%;
-    margin-top: 9%;
+    margin-top: 4.2%;
     width: 73%;
     height: 1314px; 
+}
+.co12{
+    /*border-style: solid;
+    border-color: black;*/
+    margin-left: 44.3%;
+    margin-top: 2%;
+    width: 53%;
+    height: 520px;
 }
 .kw{
     /*border-style: solid;
     border-color: black;*/
-    margin-left: 45.7%;
-    margin-top: -37%;
+    margin-left: 47.7%;
+    margin-top: -28.7%;
     width: 47%;
-    height: 430px;
+    height: 403px;
+}
+.kw2{
+    width: 100%;
+    height: 633px;
+    /*border-style: solid;
+    border-color: black;*/
 }
 .image1{
     width: 100%;
-    height: 425.7px;
+    height: 397.7px;
     object-fit: cover;
 }
 .music1{
-    margin-left: 7%;
-    margin-top: 16%;
-    height: 320px;
+    margin-left: 4.3%;
+    margin-top: 3.7%;
+    height: 300px;
     width: 31%;
     /*border-style: solid;
     border-color: black;*/
 }
 .music11{
     width: 100%;
-    height: 313px;
+    height: 300px;
     object-fit: cover;
+}
+.text1{
+    font-family: "標楷體";
+    font-size: 16px;
+    margin-top: 3%;
+    margin-left: 6.1%;
+}
+.text2{
+    font-family: "標楷體";
+    font-size: 14.13px;
+    margin-top: 3%;
+    margin-left: 6.1%;
+}
+.text3{
+    font-family: "標楷體";
+    font-size: 14.3px;
+    margin-top: 3%;
+    margin-left: 6.1%;
 }

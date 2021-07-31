@@ -3,3 +3,8 @@ $('.kw').slick({
     slidesToShow:1,
     slidesToScroll:1,
 });
+$('.co12').slick({
+    dots:true,
+    slidesToShow:1,
+    slidesToScroll:1,
+});
