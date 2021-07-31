@@ -9,15 +9,15 @@
     left: -250px;
     width: 250px;
     height: 100%;
-    background: #d2d7dd;
+    background: #01130cb6;
     transition: all .5s ease;
 }
 .sidebar header{
     font-size: 20px;
-    color: white;
+    color: #b5f048;
     padding-left: 16.2%;
     line-height: 72px;
-    background: #17142e;
+    background: #040214;
 }
 .sidebar ul a{
     display: block;
@@ -25,7 +25,7 @@
     line-height: 52px;
     font-size: 20px;
     font-family: "標楷體";
-    color: rgb(9, 10, 53);
+    color: rgb(92, 253, 92);
     padding-left: 40px;
     box-sizing: border-box;
     /*border-top: 1px solid rgba(225, 255, 225, .1);
@@ -102,4 +102,63 @@ label #cancel{
     margin-top: 158px;
     margin-left: 42%;
     font-size: 20px;
+}
+.shopb{
+    /*border-style: solid;
+    border-color: black;*/
+    width: 57%;
+    height: 230px;
+    margin-left: 20.7%;
+    margin-top: 10%;
+}
+.shopb1{
+    /*border-style: solid;
+    border-color: black;*/
+    width: 47%;
+    height: 230px;
+    margin-left: 53%;
+    margin-top: 0%;
+    text-align: center;
+    align-items: center;
+}
+.shopb2{
+    /*border-style: solid;
+    border-color: black;*/
+    width: 53%;
+    height: 230px;
+    margin-left:0%;
+    margin-top: -27.5%;
+    text-align: center;
+    align-items: center;
+}
+.shopping{
+    width: 100%;
+    height: 100%;
+    margin-left:0%;
+}
+.shop:hover{
+    opacity: 0.75;
+    color: rgba(58, 57, 57, 0.1);  
+}
+.text1{
+    font-size: 20px;
+    font-family: 'Kumar One Outline', cursive;
+    margin-top: 20px;
+}
+.text2{
+    font-size: 16px;
+    font-family: 'Kumar One Outline', cursive;
+    margin-top: 9px;
+}
+.text3{
+    width: 75%;
+}
+.text4{
+   margin-left: 7%;
+}
+.bg0{
+    background: -webkit-linear-gradient(left top,rgb(128, 240, 208),rgb(240, 130, 207));
+    background: -o-linear-gradient(bottom right,rgb(128, 240, 208),rgb(240, 130, 207));
+    background: -moz-linear-gradient(bottom right,rgb(128, 240, 208),rgb(240, 130, 207));
+    background: linear-gradient(to bottom right,rgb(128, 240, 208),rgb(240, 130, 207)d);
 }

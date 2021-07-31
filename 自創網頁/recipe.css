@@ -9,7 +9,7 @@
     left: -252px;
     width: 250px;
     height: 100%;
-    background: #f3f0c3;
+    background: #f3f0c3da;
     transition: all .5s ease;
 }
 .sidebar header{
