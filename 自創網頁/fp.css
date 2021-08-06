@@ -122,7 +122,7 @@
     left: -252px;
     width: 250px;
     height: 100%;
-    background: #d7bfe2b4;
+    background: #d7bfe2d5;
     transition: all .5s ease;
 }
 .sidebar header{
@@ -178,7 +178,7 @@ label #cancel{
 }
 #check:checked ~ label #cancel{
     left: 195px;
-}
+}/*~為影響展開與收放的符號*/
 /*.float{
     position: absolute;
     display: flex;
