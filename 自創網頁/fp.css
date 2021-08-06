@@ -179,6 +179,7 @@ label #cancel{
 #check:checked ~ label #cancel{
     left: 195px;
 }/*~為影響展開與收放的符號*/
+
 /*.float{
     position: absolute;
     display: flex;
