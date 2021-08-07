@@ -1,26 +1,15 @@
-<<<<<<< HEAD
-/*.body
-=======
-body
->>>>>>> 1ffef20975ff76559dd11a7ad30e3ac46367c5f6
-{
+/*.body{
   margin:0px;
   padding:0px;
   font-family: "Open Sans", arial;
   background: silver;
 <<<<<<< HEAD
 }*/
-=======
-}
->>>>>>> 1ffef20975ff76559dd11a7ad30e3ac46367c5f6
 .settings 
 {
   height:73px;
   float:left;
-<<<<<<< HEAD
-=======
   /*background-image:url();*/
->>>>>>> 1ffef20975ff76559dd11a7ad30e3ac46367c5f6
   background-repeat:no-repeat;
   width:250px;
   margin:0px;
@@ -28,7 +17,6 @@ body
   font-size:20px;
   font-family: 'Strait', sans-serif;
 }
-
 .hover 
 {
   height:73px;
@@ -38,12 +26,10 @@ body
   width:255px;
   margin:0px;
 }
-
 .fa-lg 
 {
   font-size: 1em;
 }
-
 .fa 
 {
   position: relative;
@@ -54,7 +40,6 @@ body
   top:12px; 
   font-size:20px;
 }
-
 .main-menu:hover, 
 nav.main-menu.expanded 
 {
@@ -62,7 +47,6 @@ nav.main-menu.expanded
   overflow:hidden;
   opacity:1;
 }
-
 .main-menu 
 {
   background:#F7F7F7;
@@ -79,19 +63,16 @@ nav.main-menu.expanded
   box-shadow: 1px 0 15px rgba(0, 0, 0, 0.07);
   opacity:1;
 }
-
 .main-menu > ul 
 {
   margin: 0;
 }
-
 .main-menu li 
 {
   position:relative;
   display:block;
   width:250px;
 }
-
 .main-menu li>a 
 {
   position:relative;
@@ -109,7 +90,6 @@ nav.main-menu.expanded
   box-shadow:inset 0 1px 1px #FAFAFA;
   text-shadow: 1px 1px 1px  #fff;  
 }
-
 .main-menu .nav-icon 
 {
   position:relative;
@@ -120,7 +100,6 @@ nav.main-menu.expanded
   vertical-align:middle;
   font-size:18px;
 }
-
 .main-menu .nav-text  
 {
   position:relative;
@@ -129,14 +108,12 @@ nav.main-menu.expanded
   width:190px;
   font-family: 'Titillium Web', sans-serif;
 }
-
 .main-menu .fb-like 
 {
   left: 180px;
   position:absolute;
   top: 15px;
 }
-
 .main-menu > ul.logout 
 {
   position:absolute;
@@ -144,24 +121,20 @@ nav.main-menu.expanded
   bottom:0;
   background: white;
 }
-
 .no-touch .scrollable.hover 
 {
   overflow-y:hidden;
 }
-
 .no-touch .scrollable.hover:hover 
 {
   overflow-y:auto;
   overflow:visible;
 }
-
 a:hover,a:focus 
 {
   text-decoration:none;
   border-left:0px solid #F7F7F7;
 }
-
 nav 
 {
   -webkit-user-select:none;
@@ -170,14 +143,12 @@ nav
   -o-user-select:none;
   user-select:none;
 }
-
 nav ul,nav li 
 {
   outline:0;
   margin:0;
   padding:0;
 }
-
 .main-menu li:hover > a,
 nav.main-menu li.active > a,
 .dropdown-menu > li > a:hover,
@@ -192,7 +163,6 @@ nav.main-menu li.active > a,
   background-color:#00bbbb;
   text-shadow: 0px 0px 0px; 
 }
-
 .area 
 {
   float: left;
@@ -200,7 +170,6 @@ nav.main-menu li.active > a,
   width: 100%;
   height: 100%;
 }
-
 @font-face 
 {
   font-family: 'Titillium Web';

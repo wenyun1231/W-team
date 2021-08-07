@@ -18,11 +18,7 @@
     height: 100%;
     background: #cdd2e2ea;
     transition: all .5s ease;
-<<<<<<< HEAD
     z-index: 2; /*清單最上層*/
-=======
-    z-index: 2;
->>>>>>> 4a708a7fde7e37bd46617b73afd9c07362adf39a
 }
 .sidebar header{
     font-size: 20px;
