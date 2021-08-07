@@ -11,6 +11,7 @@
     height: 100%;
     background: #f3f0c3da;
     transition: all .5s ease;
+    z-index: 2;
 }
 .sidebar header{
     font-size: 20px;
@@ -70,38 +71,37 @@ label #cancel{
 }
 .black{
     width: 100%;
-    height: 250px;
+    height: 213px;
+    display: flex;
     background-color:black;
-    margin-top: 170px;
+    /* margin-top: 170px; */
 }
 .home{
-    position: absolute;
     color: rgb(214, 205, 255);
-    font-size: 32px;
+    font-size: 20px;
     font-family: 標楷體;
 }
 .home1{
-    margin-top: 50px;
-    margin-left: 16%;
+    margin-left: 29%;
 }
-.game{
+/* .game{
     margin-top: 50px;
     margin-left: 44%;
-}
+} */
 .game1{
     margin-top: 102px;
-    margin-left: 44%;
-    font-size: 20px;
+    /* margin-left: 44%; */
+    font-size: 16px;
 }
 .game2{
     margin-top: 130px;
-    margin-left: 44%;
-    font-size: 20px;
+    /* margin-left: 44%; */
+    font-size: 16px;
 }
 .game3{
     margin-top: 158px;
-    margin-left: 44%;
-    font-size: 20px;
+    /* margin-left: 44%; */
+    font-size: 16px;
 }
 .bg0{
     background: -webkit-linear-gradient(right bottom,rgb(243, 180, 235),rgb(255, 192, 120));
@@ -116,7 +116,7 @@ label #cancel{
     margin-left: 13%;
     margin-top: 4.2%;
     width: 73%;
-    height: 1314px; 
+    height: 1316px; 
 }
 .co12{
     /*border-style: solid;
@@ -124,19 +124,19 @@ label #cancel{
     margin-left: 44.3%;
     margin-top: 2%;
     width: 53%;
-    height: 520px;
+    /* height: 575px; */
 }
 .kw{
     /*border-style: solid;
     border-color: black;*/
     margin-left: 47.7%;
-    margin-top: -28.7%;
+    margin-top: -312px;
     width: 47%;
     height: 403px;
 }
 .kw2{
     width: 100%;
-    height: 633px;
+    height: 492px;
     /*border-style: solid;
     border-color: black;*/
 }
@@ -146,7 +146,7 @@ label #cancel{
     object-fit: cover;
 }
 .music1{
-    margin-left: 4.3%;
+    /*margin-left: 1%;*/
     margin-top: 3.7%;
     height: 300px;
     width: 31%;
@@ -161,18 +161,31 @@ label #cancel{
 .text1{
     font-family: "標楷體";
     font-size: 16px;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: 6.1%;
 }
 .text2{
     font-family: "標楷體";
-    font-size: 14.13px;
+    font-size: 13px;
     margin-top: 3%;
     margin-left: 6.1%;
 }
 .text3{
     font-family: "標楷體";
-    font-size: 14.3px;
+    font-size: 13px;
     margin-top: 3%;
     margin-left: 6.1%;
 }
+.footer-left{
+    margin-top: 50px;
+    width: 52%;
+}
+.footer-right{
+    margin-top: 50px;
+    width: 48%;
+}
+/*@media only screen and(max-width:475px) {
+    .footer-right{
+        display: unset;
+    }
+}*/
