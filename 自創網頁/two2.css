@@ -14,7 +14,6 @@
     background: -moz-linear-gradient(top right,rgb(104, 106, 236, 0.925),rgba(5, 230, 230, 0.925));
     background: linear-gradient(to top left,rgb(19, 23, 241, 0.925),rgba(38, 241, 214, 0.925)d);
     transition: all .5s ease;
-    z-index: 1; /*清單往上一層*/
     z-index: 2;
 }
 .sidebar header{
@@ -197,7 +196,7 @@ label #cancel{
     font-size: 16px;
     font-family:標楷體;
 }
-@media only screen and (max-width:1300px ){/*寬度1300之內*/
+@media only screen and (max-width:1300px ) {    /*寬度1300之內*/
     .row{
         display: unset; /*排版回到預設-上下*/
     }

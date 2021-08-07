@@ -18,7 +18,7 @@
     height: 100%;
     background: #cdd2e2ea;
     transition: all .5s ease;
-    z-index: 2; /*清單最上層*/
+    z-index: 2;
 }
 .sidebar header{
     font-size: 20px;
@@ -216,4 +216,3 @@ label #cancel{
         flex-wrap:wrap;
     }*/
 } 
-
