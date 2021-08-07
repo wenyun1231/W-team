@@ -1,14 +1,26 @@
+<<<<<<< HEAD
 /*.body
+=======
+body
+>>>>>>> 1ffef20975ff76559dd11a7ad30e3ac46367c5f6
 {
   margin:0px;
   padding:0px;
   font-family: "Open Sans", arial;
   background: silver;
+<<<<<<< HEAD
 }*/
+=======
+}
+>>>>>>> 1ffef20975ff76559dd11a7ad30e3ac46367c5f6
 .settings 
 {
   height:73px;
   float:left;
+<<<<<<< HEAD
+=======
+  /*background-image:url();*/
+>>>>>>> 1ffef20975ff76559dd11a7ad30e3ac46367c5f6
   background-repeat:no-repeat;
   width:250px;
   margin:0px;

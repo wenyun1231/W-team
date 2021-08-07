@@ -177,7 +177,7 @@ label #cancel{
     width: 92%;
     height:30%;
 }
-.btn{   /*更多資訊btn-第一三排*/
+.btn{   /*更多資訊btn*/
     position: absolute;
     margin-top: 6%;
     background-color: rgb(167, 167, 236);
