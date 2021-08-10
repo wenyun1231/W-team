@@ -116,6 +116,7 @@ label #cancel{
     /*display: inline-block;*/
     margin-left: 4.5%;
     margin-top: 162px;
+    display: flex;
 }
 .loq{
     width: 39.7%;
@@ -133,12 +134,13 @@ label #cancel{
 .name{
     position: absolute;
     font-size: 30px;
-    margin-left: 27%;
+    margin-left: 15%;
     margin-top: -5px;
 }
 .introduction{
     position: absolute;
-    margin-left: 20%;
+    /*margin-left: 20%;*/
+    margin-left: 5%;
     margin-top: 45px;
     font-size: 16px;
     font-family:標楷體;
@@ -146,7 +148,7 @@ label #cancel{
 }
 .but1{
     position: absolute;
-    margin-left: 16.25%;
+    /*margin-left: 16.25%;*/
     margin-top: 219px;
     background-color: rgb(167, 167, 236);
     color: black;
@@ -155,7 +157,8 @@ label #cancel{
 }
 .more{
     position: absolute;
-    margin-left: 20%;
+    /*margin-left: 20%;*/
+    margin-left: 5%;
     margin-top: 130px;
     font-size: 16px;
     font-family:標楷體;
@@ -163,7 +166,8 @@ label #cancel{
 .plum{
     /*display: inline;*/
     margin-top: -149px;
-    margin-left: 53%;
+    margin-left: 50.7%;
+    display: flex;
 }
 .black{
     width: 100%;
@@ -211,13 +215,6 @@ label #cancel{
     width: 23.5%;
     text-align: justify;
 }
-/*.bb{
-    width: 16.2%;
-    margin-top: -10%;
-    margin-left:4.5%;
-    border-color: black;
-    border-style: solid;
-}*/
 @media screen and (min-width:280px) and (max-width:1300px){
     .fruit{
         width: 100%;
@@ -227,7 +224,7 @@ label #cancel{
     }
     .healthy{
     text-align:center;
-    margin-top:-140%;
+    margin-top:-300px;
     width:100%;
     transform:translate(-50%,-50%); /*加absolute為垂直置中的意思*/
     font-size: 9.5px;
@@ -238,18 +235,25 @@ label #cancel{
         display: block;
         margin-top: 88%;
         margin-left: 0%;
+
     }
     .loq{
         height: 240px;
+        width:237%;
+    }
+    .qq{
+        width: 50%;
+        display: block;
+        margin: auto;
     }
     .plum{
-        margin-top:75% ;
+        margin-top:140% ;
     }
     .loquat{
-        margin-top:75% ;
+        margin-top:140% ;
     }
     .more{
-        margin-top: 192.6px;
+        margin-top: 152px;
         text-align: justify;
     }
     .tt{
@@ -257,10 +261,19 @@ label #cancel{
         margin-left: 0%;
     }
     .but1{
-        margin-top: 307px;
+        margin-top: 261px;
         margin-left: 35%;
     }
     .name{
-        text-align: center;
+        margin-left: 0%;
+        color: rgb(236, 52, 129);
+        font-weight: bold;
+    }
+    .black{
+        margin-top: 380px;
+    }
+    .kw{
+       margin-top: -157px;
     }
 } 
+
