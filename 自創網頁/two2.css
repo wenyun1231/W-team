@@ -250,6 +250,9 @@ label #cancel{
         text-align: center;
 
     }
+    .main{
+        width: unset;
+    }
 }
 .footer-left{
     margin-top: 50px;
