@@ -1,20 +1,21 @@
 .music{
-    margin-left: 33%;
+    margin-left: 10.2%;
     margin-top: 4%;
-    height: 320px;
-    width: 34%;
+    height: 347px;
+    width: 79%;
     text-align: center;/*垂直置中*/
+    /*border-color: black;
+    border-style: solid;*/
 }
 .music1{
-    width: 75%;
-    height: 313px;
+    width: 100%;
+    height: 337px;
 }
 .black{
     width: 100%;
     height: 213px;
     display: flex;
     background-color:black;
-    /* margin-top: 170px; */
 }
 .home{
     color: rgb(214, 205, 255);
@@ -24,23 +25,16 @@
 .home1{
     margin-left: 29%;
 }
-/* .game{
-    margin-top: 50px;
-    margin-left: 44%;
-} */
 .game1{
     margin-top: 102px;
-    /* margin-left: 44%; */
     font-size: 16px;
 }
 .game2{
     margin-top: 130px;
-    /* margin-left: 44%; */
     font-size: 16px;
 }
 .game3{
     margin-top: 158px;
-    /* margin-left: 44%; */
     font-size: 16px;
 }
 .bg{
@@ -48,9 +42,7 @@
     background-position: center;/*圖片置中*/
     background-attachment: fixed;/*以中心點縮小擴張(有彈性)*/
     background-repeat: no-repeat;/*不要有空格(填滿)*/
-    /*background-color: rgb(232, 162, 250);*/
     background-size: cover;/*依比例減少或增加元素*/
-    /*vh為視窗大小*/
     height: 100vh;
     width: 100%;
     padding: 0%;
@@ -71,7 +63,6 @@
     display: flex;
     margin-left: 17.5%;
     margin-top: 2%;
-    /*background-color: rgba(233, 202, 245, 0.8);/*表示透明度*/
     width: 64%;
     border-color: rgba(247, 6, 6, 0.342);
     border-width: 2px;
@@ -81,7 +72,6 @@
 @media screen and (min-width:280px) and (max-width:1300px){
     .img1{
         width:100%;
-        /*height:520px;*/
     }
     .bg1{
         padding: 0%;
@@ -101,37 +91,32 @@
     }
 } 
 .bg2{
-    /*position:absolute;*/
     border-color: rgb(250, 216, 216);
     border-style: solid;
     width: 25%;
-    height: 575px;
+    height: 592px;
     margin-left: 17.5%;
     margin-top: 57px;
 }
 .bg21{
-    /*position:absolute;*/
-    /*border-color: rgb(248, 248, 252);
-    border-style: solid;*/
     width: 52%;
     height: 120px;
     margin-left: 24%;
     margin-top: 7px;
 }
 .bg3{
-    /*position:absolute;*/
     border-color: rgb(233, 173, 215);
     border-style: solid;
     width: 25%;
-    height: 575px;
+    height: 592px;
     margin-left: 56.5%;
-    margin-top:-579px;
+    margin-top:-599px;
 }
 .bg4{
     margin-top: 20px;
 }
 .bg5{
-    margin-top: -579px;
+    margin-top: -599px;
 }
 *{
     margin: 0;
@@ -146,7 +131,7 @@
     height: 100%;
     background: #d7bfe2d5;
     transition: all .5s ease;
-    z-index: 2;
+    z-index: 2;/*讓此主選單為最上列*/
 }
 .sidebar header{
     font-size: 20px;
@@ -212,39 +197,6 @@ label #cancel{
     margin-top: -4px;
     margin-left: 0%;  
 }*/
-/*.language{
-    position: fixed;
-    right:0px;
-    border-color: rgba(177, 207, 236, 0.212);
-    width: 5.7%;
-    height: 52px;
-    font-family: "標楷體";
-}
-.language1{
-    right:32.5%;
-    width: 7.5%;
-}
-.language2{
-    right:25%;
-    width: 7.5%;
-}
-.language3{
-    right:17.5%;
-    width: 7.5%;
-}
-.language4{
-    right:10%;
-    width: 7.5%;
-}
-.language5{
-    right:40%;
-    width: 7.5%;
-}*/
-/*.co1{
-    height: 1004px;
-    margin-top: 20px;  
-    margin-left: 20%;
-}*/
 .co2{
     height: 100px;
     width: 9%;
@@ -252,9 +204,6 @@ label #cancel{
     margin-left: 0%;
 }
 .img1{
-    /*margin-top: -16px;
-    height: 23%;*/
-    /*margin-left: -36px;*/
     width: 100%;
     object-fit: cover;
     margin: 0%;
@@ -268,12 +217,10 @@ label #cancel{
     font-size: 52px;
     color: wheat;
     background-color: black;
-    margin-top: 230px;
+    margin-top: 143px;
     text-align: center;
 }
 .t1{
-    /* margin-top: 134px; 
-    margin-left: 20%; */
     font-family: "標楷體";
     text-align: center;
     font-size: 14px;
@@ -294,12 +241,12 @@ label #cancel{
     line-height: 31px;
 }
 .but{
-    width: 75%;
+    width: 88%;
     height: 25px;
     text-align: center;
     font-size: 13.7px;
     font-family: "標楷體";
-    margin-left: 12.6%;
+    margin-left: 5.7%;
 }
 .but1{
     margin-top: 23px;
@@ -319,4 +266,8 @@ label #cancel{
 .footer-right{
     margin-top: 50px;
     width: 48%;
+}
+.icon1{
+    font-size: 9%;
+    color: yellow;
 }

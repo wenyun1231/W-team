@@ -36,8 +36,6 @@
     color: rgb(37, 92, 245);
     padding-left: 40px;
     box-sizing: border-box;
-    /*border-top: 1px solid rgba(225, 255, 225, .1);
-    border-bottom: 1px solid rgb(7, 4, 14);*/
     transition: .4s;
 }
 ul li:hover a{
@@ -104,7 +102,6 @@ label #cancel{
     color:#fd1534;}
 }
 .fruit{
-    /*background-image: url("/自創網頁/img/春夏.jpg");*/
     height: 530px;
     width: 64%;
     background-position: center center;
@@ -113,7 +110,6 @@ label #cancel{
     margin-top: 120px;
 }
 .loquat{
-    /*display: inline-block;*/
     margin-left: 4.5%;
     margin-top: 162px;
     display: flex;
@@ -139,16 +135,13 @@ label #cancel{
 }
 .introduction{
     position: absolute;
-    /*margin-left: 20%;*/
     margin-left: 5%;
     margin-top: 45px;
     font-size: 16px;
     font-family:標楷體;
-    /*text-align: justify;*/
 }
 .but1{
     position: absolute;
-    /*margin-left: 16.25%;*/
     margin-top: 219px;
     background-color: rgb(167, 167, 236);
     color: black;
@@ -157,14 +150,12 @@ label #cancel{
 }
 .more{
     position: absolute;
-    /*margin-left: 20%;*/
     margin-left: 5%;
     margin-top: 130px;
     font-size: 16px;
     font-family:標楷體;
 }
 .plum{
-    /*display: inline;*/
     margin-top: -149px;
     margin-left: 50.7%;
     display: flex;
@@ -184,23 +175,16 @@ label #cancel{
 .home1{
     margin-left: 29%;
 }
-/* .game{
-    margin-top: 50px;
-    margin-left: 44%;
-} */
 .game1{
     margin-top: 102px;
-    /* margin-left: 44%; */
     font-size: 16px;
 }
 .game2{
     margin-top: 130px;
-    /* margin-left: 44%; */
     font-size: 16px;
 }
 .game3{
     margin-top: 158px;
-    /* margin-left: 44%; */
     font-size: 16px;
 }
 .footer-left{
@@ -230,8 +214,6 @@ label #cancel{
     font-size: 9.5px;
     }
     .all{
-        /*display: unse;
-        flex-wrap: wrap;*/
         display: block;
         margin-top: 88%;
         margin-left: 0%;
