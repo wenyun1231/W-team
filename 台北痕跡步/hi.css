@@ -1,0 +1,9 @@
+.bag{
+    background-image: url("/台北痕跡步/image/文明.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;/*填滿多餘部分*/
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
