@@ -1,9 +1,16 @@
 .bag{
     background-image: url("/台北痕跡步/image/文明.jpg");
-    background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: contain;/*填滿多餘部分*/
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
+    background-position: right center;
+    background-size: cover;
+    
+    
+}
+@media screen and (min-height:600px) and (max-width:1300px) {
+    .bag{
+        background-image: url("/台北痕跡步/image/手機板文明.jpg");
+        height: 100%;
+        width: unset;
+    }
 }

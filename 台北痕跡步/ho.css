@@ -22,7 +22,8 @@
     font-weight:bold;/*字體加粗*/
     margin-left: 4%;
 
-    color:white;
+    -webkit-text-stroke: 0.2px white;
+    color:black;
     background: linear-gradient(to top, #e230b6, yellow, #27cc2f);
     background-clip:text;
     -webkit-background-clip:text;
