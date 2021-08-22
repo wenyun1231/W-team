@@ -1,5 +1,5 @@
 .bg{
-    background-image:url("/台北痕跡步/image/首頁背景圖.jpg");
+    background-image:url("/雙北痕跡步/image/首頁背景圖.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;/*填滿多餘部分*/
@@ -73,7 +73,7 @@
     top: 30px;
 }
 .b11{
-    background-image:url("/台北痕跡步/image/首頁圈1.jpg");
+    background-image:url("/雙北痕跡步/image/首頁圈1.jpg");
     background-size: 100% 100%; 
     border-color:rgb(230, 240, 94); 
     
@@ -82,7 +82,7 @@
     opacity:0.88;
 }
 .b12{
-    background-image:url("/台北痕跡步/image/首頁圈2.jpg");
+    background-image:url("/雙北痕跡步/image/首頁圈2.jpg");
     background-size: 100% 100%; 
     border-color:rgb(140, 240, 94);
 }
@@ -90,7 +90,7 @@
     opacity:0.88;
 }
 .b13{
-    background-image:url("/台北痕跡步/image/首頁圈3.jpg");
+    background-image:url("/雙北痕跡步/image/首頁圈3.jpg");
     background-size: 100% 100%;
     border-color:rgb(230, 240, 94);   
 }
@@ -98,7 +98,7 @@
     opacity:0.88;
 }
 .b14{
-    background-image:url("/台北痕跡步/image/首頁圈4.png");
+    background-image:url("/雙北痕跡步/image/首頁圈4.png");
     background-size: 100% 100%; 
     border-color:rgb(140, 240, 94);  
 }
