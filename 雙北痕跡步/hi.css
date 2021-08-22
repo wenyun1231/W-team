@@ -16,13 +16,13 @@
 }
 .container {
   margin: 0 auto;
-  width: 250px;
+  width: 350px;
   height: 200px;
   position: relative;
   perspective: 1000px;
 }
 .wh{
-    margin-left: 10%;
+    margin-left: 6%;
     margin-top: 10px;
     width: 50%;
     height: 540px;
@@ -31,56 +31,79 @@
 .carousel {
     height: 100%;
     width: 100%;
+    
     top: 90px;
     position: absolute;
     transform-style: preserve-3d;
     transition: transform 1s;/*轉場*/
   }
   .item {
-    display: block;
+    
+    display: inline-block;
     position: absolute;
     background: #000;
-    width: 200px;
+    width: 300px;
     height: 200px;
-    line-height: 200px;
-    font-size: 5em;
-    text-align: center;
+    font-size: 1em;
     color: #FFF;
     opacity: 0.95;
-    border-radius: 10px;
-  }
-  
-  .a {
-    transform: rotateY(0deg) translateZ(500px);
-    background: #ed1c24;
   }
   .cat{
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     position: absolute;
-    top: 1%;
-    left: 1%;
+    top: 15%;
+    left: 5%;
     border-radius: 10px;
+  }
+  .main{
+    position: fixed;
+    flex-direction: column;
+    width: 140px;
+    height: 200px;
+    left: 52%;
+    bottom: 0px;
+    line-height: 14px;
+  }
+  .me{
+    font-size: 2px;
+    color: #000;
+    font-family: "標楷體";
+  }
+  .a {
+    transform: rotateY(0deg) translateZ(500px);
+    background-image: url("/雙北痕跡步/image/明信片.jpg");
+    background-size: contain;
+  }
+  .m{
+    font-size: 24px;
+    color: #000;
+    font-family: "標楷體";
   }
   .b {
     transform: rotateY(60deg) translateZ(250px);
-    background: #0072bc;
+    background-image: url("/雙北痕跡步/image/明信片.jpg");
+    background-size: contain;
   }
   .c {
     transform: rotateY(120deg) translateZ(250px);
-    background: #39b54a;
+    background-image: url("/雙北痕跡步/image/明信片.jpg");
+    background-size: contain;
   }
   .d {
     transform: rotateY(180deg) translateZ(250px);
-    background: #f26522;
+    background-image: url("/雙北痕跡步/image/明信片.jpg");
+    background-size: contain;
   }
   .e {
     transform: rotateY(240deg) translateZ(250px);
-    background: #630460;
+    background-image: url("/雙北痕跡步/image/明信片.jpg");
+    background-size: contain;
   } 
   .f {
     transform: rotateY(300deg) translateZ(250px);
-    background: #8c6239;
+    background-image: url("/雙北痕跡步/image/明信片.jpg");
+    background-size: contain;
   }
   
   .next, .prev {/*bnt*/
