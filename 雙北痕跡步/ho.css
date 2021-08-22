@@ -25,7 +25,8 @@
     font-size: 20px;
 }
 .s1{
-    color: rgb(190, 143, 212);
+    color: black;
+    -webkit-text-stroke: 0.7px rgb(190, 143, 212);
 }
 .font{
     font-family: 'Kumar One Outline', cursive;
@@ -233,7 +234,7 @@
         height: 212px;
         background-color:black;
         
-        padding:0%;/*讓內框與外框div無間距*/
+        padding:0%;
         margin: 0%;
     }
     .footer-top{
