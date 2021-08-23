@@ -116,6 +116,11 @@
     font-weight: bold;
     font-size: 37px;
 }
+.tt1{
+    font-family: 標楷體;
+    font-weight: bold;
+    font-size:31px;
+}
 .t11{
     color: yellow;
     -webkit-text-stroke: 0.2px white;
@@ -124,13 +129,25 @@
     color: rgb(230, 43, 120);
     -webkit-text-stroke: 0.7px rgb(240, 172, 44);
 }
+.t121{
+    color: rgb(230, 43, 52);
+    -webkit-text-stroke: 0.9px white;
+}
+.t122{
+    color: rgb(43, 46, 230);
+    -webkit-text-stroke: 0.5px white;
+}
+.t123{
+    color: rgb(230, 227, 43);
+    -webkit-text-stroke: 0.8px white;
+}
 .t13{
     color: rgb(116, 50, 238);
     -webkit-text-stroke: 0.4px rgb(17, 240, 173);
 }
 .t131{
     color: rgb(50, 236, 236);
-    -webkit-text-stroke: 0.3px rgb(17, 240, 61);
+    -webkit-text-stroke: 0.7px white;
 }
 .t14{
     color: rgb(12, 7, 50);
@@ -175,7 +192,7 @@
     bottom: 0;
     margin: auto;
     background-color: #ccc;
-    background-color: rgba(213, 240, 247);
+    background-color: rgba(230, 247, 250, 0.637);
     border-radius: 3px;
     perspective: 500px;
     /*使格子不是平面圖，程3D透視的樣子(每格div同行列等寬且有放大的感覺)*/
@@ -257,16 +274,20 @@
     }
     .square {
         width: 99%;
-        height: 670px;
+        /*height: 670px;*/
     }
     .area{
         top:52px;
     }
     .area button{
         background-size:cover;
+        height: 28%;
     }
     .tt{
         font-size: 18.7px;
+    }
+    .tt1{
+        font-size: 19px;
     }
 }/*min(大於)*/
 @media screen and (max-width:280px){
@@ -329,5 +350,8 @@
     }
     .tt{
         font-size: 20px;
+    }
+    .tt1{
+        font-size: 14px;
     }
 }/*min(小於)*/
