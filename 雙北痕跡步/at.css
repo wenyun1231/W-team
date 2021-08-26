@@ -85,6 +85,95 @@
     height: 207px;
     margin-left:61.7%;
 }
+.g{
+    /*border-color: black;
+    border-style: solid;*/
+    width: 88%;
+    height: 337px;
+    margin: auto;
+}
+.gg{
+    width: 88%;
+    height: 337px;
+    margin: auto;
+}
+.g1{
+    /*border-color: black;
+    border-style: solid;*/
+    width: 47%;
+    height: 335px;
+    margin: 0%;
+}
+.g11{
+    width: 47%;
+    height: 335px;
+    margin: 0%;
+}
+.g2{
+    /*border-color: black;
+    border-style: solid;*/
+    width: 53%;
+    height: 327px;
+    margin-top: -335px;
+    margin-left: 47%;
+    padding-top: 4px;
+    background-color: rgba(0, 0, 0, 0.747);
+    
+    /*position: absolute;
+    animation-name: kw;
+    animation-duration: 7s;*/  
+}
+/*@keyframes kw{
+    47%{
+        right: 20px;
+    }
+    0%{
+        left: -20px;
+    }
+}*/
+.im1{
+    width: 100%;
+    height: 330px;
+    margin: 0%;
+}
+.t1{
+    font-size: 27px;
+    font-weight: bolder;
+    font-family: 標楷體;
+    color: rgb(247, 177, 70);
+    -webkit-text-stroke: 0.7px wheat;
+    text-align: center;
+}
+.t11{
+    font-size: 17px;
+    font-family: 標楷體;
+    color: white;
+    -webkit-text-stroke: 0.4px rgb(177, 177, 83);
+    
+    text-align: justify;
+}
+.icon1{
+    font-size: 31px;
+    color: white;
+    margin-left: 0.3%;
+}
+.pp1{
+    font-size: 16px;
+    color: white;
+    font-family: 標楷體;
+    margin-top: -20px;
+    margin-left: 6.1%;
+}
+.pp2{
+    font-size: 16px;
+    color: rgb(158, 240, 212);
+    font-family: 標楷體;
+    margin-top: -20px;
+    margin-left: 0%;
+}
+/*.pp1:hover{
+    color: white;
+}*/
 @media screen and (min-width:320px) and (max-width:1300px){
     .foot{
         font-size: 27px;
@@ -132,6 +221,63 @@
     }
     .call{
         font-size: 16px;
+    }
+    .g1{
+        width:31%;
+        height: 50px;
+        padding-left: 2%;
+        z-index: 2px;
+
+    }
+    .g11{
+        width:31%;
+        height: 50px;
+        padding-left: 2%;
+        margin-left: 7%;
+        z-index: 2px;
+
+    }
+    .im1{
+        width: 100%;
+        height: 50px;
+        object-fit:  cover;
+    }
+    .g2{
+        width: 100%;
+        height: 334px;
+        margin-left: 0%;
+        margin-top: -61px;
+        padding-top: 12px;
+        padding-left: 1.4%;
+        background-color: rgba(0, 0, 0, 0.747);
+        z-index: -1;
+    }
+    .g{
+        width: 98%;
+        margin:0%;
+    }
+    .gg{
+        width: 98%;
+        margin:0%;
+    }
+    .t1{
+        font-size: 20px;
+        text-align:right;
+    }
+    .t11{
+        font-size: 16px;
+    }
+    .icon1{
+        font-size: 20px;
+    }
+    .pp1{
+        font-size: 14px;
+        margin-top: -16px;
+        margin-left: 7.7%;
+    }
+    .pp2{
+        font-size: 14px;
+        margin-top: -16px;
     }
 }
 @media screen and (max-width:280px){
@@ -181,5 +327,62 @@
     }
     .call{
         font-size: 16px;
+    }
+    .g1{
+        width:27%;
+        height: 50px;
+        padding-left: 2%;
+        z-index: 2px;
+
+    }
+    .g11{
+        width:31%;
+        height: 50px;
+        padding-left: 2%;
+        margin-left: 9%;
+        z-index: 2px;
+
+    }
+    .im1{
+        width: 100%;
+        height: 50px;
+        object-fit: cover;
+    }
+    .g2{
+        width: 100%;
+        height: 334px;
+        margin-left: 0%;
+        margin-top: -61px;
+        padding-top: 12px;
+        padding-left: 1.6%;
+        background-color: rgba(0, 0, 0, 0.747);
+        z-index: -1;
+    }
+    .g{
+        width: 98%;
+        margin:0%;
+    }
+    .gg{
+        width: 98%;
+        margin:0%;
+    }
+    .t1{
+        font-size: 18px;
+        text-align:right;
+    }
+    .t11{
+        font-size: 16px;
+    }
+    .icon1{
+        font-size: 20px;
+    }
+    .pp1{
+        font-size: 14px;
+        margin-top: -16px;
+        margin-left: 8.8%;
+    }
+    .pp2{
+        font-size: 14px;
+        margin-top: -16px;
     }
 }
