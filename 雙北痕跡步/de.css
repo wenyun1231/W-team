@@ -63,32 +63,27 @@
     position: relative;
     width: 100%;
     height: 212px;
-    top: 31px;
+    top: 99px;
     background-color:black;
+}
+.coo{
+    text-align: center;
 }
 .call{
     color: rgb(214, 205, 255);
     font-size: 27px;
     font-family: 標楷體;
-    padding-top: 20px;
+    padding-top: 59px;
     text-align: center;
 }
 .call1{
     color: rgb(173, 238, 235);
     font-size: 24px;
     font-family: 標楷體;
-    margin-left: 670px;
 }
 .fas{
     color: rgb(173, 238, 235);
     font-size: 24px;
-}
-.footer{
-    margin-top: 50px;
-    width: 100%;
-    height: 207px;
-    /*border-style: solid;
-    border-color: white;*/
 }
 .g{
     /*border-color: black;
@@ -187,31 +182,17 @@
     }
     .black{
         width: 99.4%;
-        height: 212px;
-        background-color:black;
-        
-        padding:0%;/*讓內框與外框div無間距*/
-        margin: 0%;
-    }
-    .footer-top{
-        width: 99%;
-        height: 106px;
-        
-        margin: 0%;
+        margin-top: 77px;
     }
     .call{
-        font-size: 27px;
+        padding-top: 39px;
     }
     .call1{
-        color: rgb(173, 238, 235);
-        font-size: 14px;
-        font-family: 標楷體;
-        margin: 27%
-        
+        font-size: 20px;
+        display: block;   
     }
     .fas{
-        color: rgb(173, 238, 235);
-        font-size: 13px;
+        font-size: 16px;
     }
     .g{
         width: 98%;
@@ -285,29 +266,16 @@
     }
     .black{
         width: 99.4%;
-        height: 212px;
-        background-color:black;
-        
-        padding:0%;
-        margin: 0%;
-    }
-    .footer-top{
-        width: 99%;
-        height: 106px;
-        
-        margin: 0%;
+        margin-top: 77px;
     }
     .call{
-        font-size: 27px;
+        padding-top: 39px;
     }
     .call1{
-        color: rgb(173, 238, 235);
-        font-size: 16px;
-        font-family: 標楷體;
-        margin-left: 20%;
+        font-size: 20px;
+        display: block;   
     }
     .fas{
-        color: rgb(173, 238, 235);
         font-size: 16px;
     }
     .g{
