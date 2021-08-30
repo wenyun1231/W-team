@@ -12,14 +12,14 @@
     margin: auto;
     width: 61%;
     height: 50px;
-    background-color: rgba(33, 99, 153, 0.247);
+    background-color: rgba(33, 99, 153, 0.0247);
     z-index:2; 
 }
 .btn1{
     margin-left: 10.5%;
-    border-color:rgba(120, 120, 245, 0.047);
+    border-color:rgba(120, 120, 245, 0.02);
     width: 12%;
-    background-color:rgba(120, 120, 245, 0.047) ;
+    background-color:rgba(120, 120, 245, 0.02) ;
     font-family: "標楷體";
     font-size: 20px;
 }
@@ -81,7 +81,7 @@
     font-size: 24px;
     font-family: 標楷體;
 }
-.fas{
+.fass{
     color: rgb(173, 238, 235);
     font-size: 24px;
 }
@@ -207,7 +207,7 @@
         font-size: 20px;
         display: block;   
     }
-    .fas{
+    .fass{
         font-size: 16px;
     }
     .g1{
@@ -302,7 +302,7 @@
         font-size: 20px;
         display: block;   
     }
-    .fas{
+    .fass{
         font-size: 16px;
     }
     .g1{
