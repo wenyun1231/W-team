@@ -100,12 +100,13 @@
 .g1{
     /*border-color: black;
     border-style: solid;*/
-    width: 47%;
+    width: 45%;
     height: 335px;
     margin: 0%;
 }
 .g11{
-    width: 47%;
+    /*width: 47%;*/
+    width: 45%;
     height: 335px;
     margin: 0%;
 }
@@ -211,9 +212,10 @@
         font-size: 16px;
     }
     .g1{
-        width:31%;
+        width:30%;
         height: 50px;
         padding-left: 2%;
+        margin-left: 7%;
         z-index: 2px;
 
     }
