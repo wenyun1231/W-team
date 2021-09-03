@@ -210,9 +210,15 @@
         height: 217px;
         margin: 0% auto;
     }
+    .imgg{
+        width: 72%;
+        height: 99px;
+        margin: 0% auto;
+    }
     .im1{
-        height: 140px;
-        object-fit: contain;
+        /*height: 140px;
+        object-fit: contain;*/
+        object-fit: cover;
     }
     .im2{
         width: 44%;
@@ -294,9 +300,13 @@
         height: 217px;
         margin: 0% auto;
     }
+    .imgg{
+        width: 72%;
+        height: 94px;
+        margin: 0% auto;
+    }
     .im1{
-        height: 140px;
-        object-fit: contain;
+        object-fit: cover;
     }
     .im2{
         width: 44%;
